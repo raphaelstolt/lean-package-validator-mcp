@@ -9,14 +9,19 @@ class LeanPackageValidatorToolsTest extends TestCase
 {
     private string $tempDir;
     private LeanPackageValidatorTools $tools;
+    private ?string $originalGitEmail = null;
+    private ?string $originalGitName = null;
 
     protected function setUp(): void
     {
         $this->tools = new LeanPackageValidatorTools();
-        
+
         $this->tempDir = sys_get_temp_dir() . '/lpv_mcp_test_' . uniqid();
         mkdir($this->tempDir);
-        
+
+        $this->originalGitEmail = shell_exec('git config --global user.email');
+        $this->originalGitName = shell_exec('git config --global user.name');
+
         // Initialize a dummy git repository for commands that require it
         exec("git init {$this->tempDir}");
         exec("git config --global user.email 'test@example.com' || true");
@@ -34,6 +39,20 @@ class LeanPackageValidatorToolsTest extends TestCase
     {
         if (is_dir($this->tempDir)) {
             exec("rm -rf {$this->tempDir}");
+        }
+
+        if ($this->originalGitEmail) {
+            $email = trim($this->originalGitEmail);
+            exec("git config --global user.email '{$email}'");
+        } else {
+            exec("git config --global --unset user.email || true");
+        }
+
+        if ($this->originalGitName) {
+            $name = trim($this->originalGitName);
+            exec("git config --global user.name '{$name}'");
+        } else {
+            exec("git config --global --unset user.name || true");
         }
     }
 
