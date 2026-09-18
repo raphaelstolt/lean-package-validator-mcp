@@ -4,7 +4,8 @@
 
 * export-ignore
 
+bin/ -export-ignore
+bin/server.php -export-ignore
 composer.json -export-ignore
 LICENSE.md -export-ignore
-server.php -export-ignore
 src/ -export-ignore
