@@ -36,6 +36,11 @@ Add the server to your MCP client configuration (e.g., Cursor, Claude Desktop):
 }
 ```
 
+## Contributing
+
+If you're considering contributing to this project, have a look at this repository's [CONTRIBUTING.md](.github/CONTRIBUTING.md)
+for more advice.
+
 ### License
 
 This project is licensed under the MIT license. Please see [LICENSE.md](LICENSE.md) for more details.

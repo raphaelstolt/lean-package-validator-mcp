@@ -26,6 +26,25 @@
         "bin/server.php"
     ],
     "require-dev": {
-        "phpunit/phpunit": "^13.3"
+        "phpunit/phpunit": "^13.3",
+        "carthage-software/mago": "^1.48.1"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "cs-lint": [
+            "mago format --check",
+            "mago lint"
+        ],
+        "cs-fix": "mago format",
+        "pre-commit-check": [
+            "@cs-lint",
+            "@test"
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Runs the test suite.",
+        "cs-lint": "Checks the code for coding-standard violations.",
+        "cs-fix": "Fixes the coding-standard violations which can be fixed automatically.",
+        "pre-commit-check": "Runs all checks which are also run in CI."
     }
 }
