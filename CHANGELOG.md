@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Fixed
+- The `src/` content is distributed correctly.
+
 ## [v0.1.1] - 2026-09-18
 
 ### Fixed
