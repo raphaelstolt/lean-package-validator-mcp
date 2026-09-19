@@ -26,7 +26,7 @@ The MCP server exposes the following tools:
 You can install this package via Composer:
 
 ```bash
-composer create-project stolt/lean-package-validator-mcp
+composer require --dev stolt/lean-package-validator-mcp
 ```
 
 ## Setup in MCP clients

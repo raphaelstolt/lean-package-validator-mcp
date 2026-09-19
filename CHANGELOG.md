@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Changed
+- Changed Composer package type to `library`.
+
 ### Fixed
 - Removed the unnecessary `php-mcp/client` dependency.
 

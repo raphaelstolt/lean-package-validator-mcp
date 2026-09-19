@@ -1,7 +1,7 @@
 {
     "name": "stolt/lean-package-validator-mcp",
     "description": "A MCP server exposing lean-package-validator commands as tools.",
-    "keywords": ["lpv", "lean-package-validator", "mcp"],
+    "keywords": ["lpv", "lean-package-validator", "mcp", "dev"],
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,7 @@
             "email": "raphael.stolt@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
         "php": ">=8.2",
         "stolt/lean-package-validator": "^6.0",
