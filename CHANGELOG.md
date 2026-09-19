@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+## [v0.1.3] - 2026-09-19
+
 ### Changed
 - Changed Composer package type to `library`.
 
@@ -28,6 +30,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 - Initial implementation.
 
-[Unreleased]: https://github.com/raphaelstolt/lean-package-validator-mcp/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/raphaelstolt/lean-package-validator-mcp/compare/v0.1.3...HEAD
+[v0.1.3]: https://github.com/raphaelstolt/lean-package-validator-mcp/compare/v0.1.2...v0.1.3
 [v0.1.2]: https://github.com/raphaelstolt/lean-package-validator-mcp/compare/v0.1.1...v0.1.2
 [v0.1.1]: https://github.com/raphaelstolt/lean-package-validator-mcp/compare/v0.1.0...v0.1.1
