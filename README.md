@@ -1,5 +1,6 @@
 # Lean package validator MCP
 
+![Test Status](https://github.com/raphaelstolt/lean-package-validator-mcp/workflows/ci/badge.svg)
 [![Version](http://img.shields.io/packagist/v/stolt/lean-package-validator-mcp.svg?style=flat)](https://packagist.org/packages/stolt/lean-package-validator-mcp)
 ![Downloads](https://img.shields.io/packagist/dt/stolt/lean-package-validator-mcp)
 ![PHP Version](https://img.shields.io/badge/php-8.2+-ff69b4.svg)
