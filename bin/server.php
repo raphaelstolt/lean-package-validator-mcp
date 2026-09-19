@@ -10,7 +10,7 @@ use PhpMcp\Server\Transports\StdioServerTransport;
 
 try {
     $server = Server::make()
-        ->withServerInfo('Lean Package Validator MCP', '1.0.0')
+        ->withServerInfo('Lean Package Validator MCP', '0.1.2')
         ->build();
 
     $server->discover(
