@@ -7,9 +7,10 @@
 [![PDS Skeleton](https://img.shields.io/badge/pds-skeleton-blue.svg?style=flat)](https://github.com/php-pds/skeleton)
 [![Lean dist package](https://img.shields.io/badge/lean-dist%20package-00ffb6.svg?style=flat)](https://github.com/raphaelstolt/lean-package-validator-mcp)
 
-A framework-agnostic Model Context Protocol (MCP) server for [lean-package-validator](https://github.com/raphaelstolt/lean-package-validator). 
+A framework-agnostic Model Context Protocol (MCP) server for the [lean-package-validator](https://github.com/raphaelstolt/lean-package-validator).
 
-This package exposes tools to manage and validate `.gitattributes` files and Git archives, helping to maintain clean package exports.
+This package exposes tools to manage and validate `.gitattributes` files and Git archives, helping to maintain
+small package distributions.
 
 ## Available tools
 
