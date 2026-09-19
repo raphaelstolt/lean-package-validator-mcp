@@ -1,6 +1,6 @@
 # How to contribute
 
-Thanks for considering to contribute to the `lean package validator-mcp` project.
+Thanks for considering to contribute to the `lean-package-validator-mcp` project.
 
 ## Setting up a development environment
 
